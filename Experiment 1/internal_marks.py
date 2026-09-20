@@ -1,0 +1,15 @@
+import numpy as np
+marks = np.array([78, 85, 67, 92, 74, 88, 81, 69, 95, 76])
+
+mean = np.mean(marks)
+median = np.median(marks)
+std_dev = np.std(marks)
+maximum = np.max(marks)
+minimum = np.min(marks)
+
+print("Internal Marks:", marks)
+print("Mean:", mean)
+print("Median:", median)
+print("Standard Deviation:", std_dev)
+print("Maximum:", maximum)
+print("Minimum:", minimum)
